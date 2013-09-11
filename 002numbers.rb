@@ -13,7 +13,7 @@ puts age
 # faire au moment de la saisie et donc le rajouter au gets -
 
 # Si je veux calculer le nombre de jour multiplié par l'age, et que j'écris  - puts age * 365 -, j'affiche 365 fois 50.
-# Ce n'est don pas ça...
+# Ce n'est donc pas ça...
 
 puts age * 365
 
