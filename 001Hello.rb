@@ -8,5 +8,12 @@ puts "Andy"
 
 puts "------------------------"
 
-puts 2 + 3 * 4                      # en math la multiplication ou la division prennent le pas sur l'adition ou
-                                    # la soustraction. c'est donc équivalent à 2+(3*4)
+puts 2+3*4
+ # en math la multiplication ou la division prennent le pas sur l'adition ou la soustraction. c'est doncquivalent
+ # à 2+(3*4) = 14 . Il est recommandé de mettre des paraenthèse pour plus de clarté
+
+puts "Calcul du nombre de secondes dans une journee"
+
+puts "seconds per a day is #{3600*24}"
+# Le fait de mettre une dièze suivi de deux accolades permet de dire au programme :
+
