@@ -9,4 +9,4 @@ puts "Andy"
 puts "------------------------"
 
 puts 2 + 3 * 4                      # en math la multiplication ou la division prennent le pas sur l'adition ou
-                                    # la soustraction. c'est don équivalent à 2+(3*4)
+                                    # la soustraction. c'est donc équivalent à 2+(3*4)
