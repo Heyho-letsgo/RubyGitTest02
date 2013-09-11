@@ -15,5 +15,5 @@ puts 2+3*4
 puts "Calcul du nombre de secondes dans une journee"
 
 puts "seconds per a day is #{3600*24}"
-# Le fait de mettre une dièze suivi de deux accolades permet de dire au programme :
+# Le fait de mettre une dièze suivi de deux accolades permet de dire au programme :  "Sort du string et passe en calcul pour les valeurs en accolades"
 
