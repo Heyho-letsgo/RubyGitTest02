@@ -42,6 +42,6 @@ puts "Joyeux Noel".downcase
 # Met en minuscule le string
 
 puts "Joyeux Noel".reverse
-#  Inverse les lettres
+#  Inverse les lettres du string
 
 
