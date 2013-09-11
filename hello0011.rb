@@ -28,5 +28,20 @@ puts "Ecrire ho ho ho Merry Christmas"
 puts "ho " "ho " "ho " "Merry Christmas"
 
 puts "Ho " * 3 + 'Merry Christmas'
+# ATTENTION  3 * "Ho " ne fonctionne pas
 puts "------------------------"
+
+puts "*"*60
+# met 60 étoiles
+puts "Joyeux Noel".length
+# Calcule le nombre de caractères dans le string
+puts "Joyeux Noel".upcase
+# Met en majuscule le string
+
+puts "Joyeux Noel".downcase
+# Met en minuscule le string
+
+puts "Joyeux Noel".reverse
+#  Inverse les lettres
+
 
