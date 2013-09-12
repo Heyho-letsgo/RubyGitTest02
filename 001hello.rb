@@ -1,3 +1,6 @@
+#  Introduction to Ruby - Day 1 - Rubymine setup - Hello World
+# http://www.youtube.com/watch?v=1lgu_l4oe8c&list=PLSXDqiI4sC5NinJXEoYH6FYQ7vtIO8IPF&index=1
+
 puts "Hello World"
 # Tout ce qui est  entre des quotes est considéré comme de l'alpha-numérique
 

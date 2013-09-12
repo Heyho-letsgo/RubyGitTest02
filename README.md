@@ -1,8 +1,11 @@
 RubyGitTest02
 ============
 
-Bon voila ... Aujourd'hui journée GitHub pour moi et reprise des exercices en ruby.
-
-Je suis ces cours en vidéo. 
+Formation à Ruby en utilisant L'ide RubyMine
 
 http://www.youtube.com/playlist?list=PLSXDqiI4sC5NinJXEoYH6FYQ7vtIO8IPF
+
+Un ensemble de cours en vidéo et en anglais de 21 leçons.
+
+
+Je refais les exercices...

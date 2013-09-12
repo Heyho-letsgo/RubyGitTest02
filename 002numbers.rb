@@ -1,3 +1,6 @@
+# Introduction to Ruby - Day 2 - Numbers and input/output
+# http://www.youtube.com/watch?v=mNt9CDg-MS0&list=PLSXDqiI4sC5NinJXEoYH6FYQ7vtIO8IPF
+
 # gets method est l'opposé de put method. Elle permet de récupérer une valeur saisie au clavier ou autres
 
 print "Enter your Age : "
