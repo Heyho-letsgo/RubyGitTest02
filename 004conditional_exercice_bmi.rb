@@ -32,7 +32,7 @@ puts " Votre IMC est de #{imc}"
 
 if imc <16
 puts "Anorexie ou denutrition"
-elsif imc >16 and imc<=18.5
+elsif imc >=16 and imc<=18.5
   puts "Maigreur"
 elsif imc>18.5 and imc<=25
   puts "Corpulence normale"
@@ -42,4 +42,5 @@ elsif imc>35 and imc<=40
   puts "Obesite Elevee 1"
 else
   puts "Obesite Elevee 2"
+  puts "You are going to die !!"
 end
