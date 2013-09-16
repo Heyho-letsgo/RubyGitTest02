@@ -1,3 +1,4 @@
+# encoding: utf-8
 # Introduction to Ruby - Day 3 - Floating point numbers - Tip calculator
 # http://www.youtube.com/watch?v=k6ePfV7jd3Q&list=PLSXDqiI4sC5NinJXEoYH6FYQ7vtIO8IPF
 
@@ -26,7 +27,7 @@ begin
 
 
   puts "Vous mettez #{tip_amount.chomp}% comme pourboire soit : #{total_amount.to_f * tip_amount.to_f / 100} euros"
-puts "Le total a payer est de #{total_amount.to_f + total_amount.to_f * tip_amount.to_f / 100 } euros"
+puts "Le total à payer est de #{total_amount.to_f + total_amount.to_f * tip_amount.to_f / 100 } euros"
 
 
 

@@ -1,3 +1,4 @@
+# encoding: utf-8
 # Introduction to Ruby - Day 4 - Conditional Statements
 # http://www.youtube.com/watch?v=ngocHEpPEBY&list=PLSXDqiI4sC5NinJXEoYH6FYQ7vtIO8IPF
 

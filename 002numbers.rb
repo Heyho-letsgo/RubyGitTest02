@@ -1,3 +1,4 @@
+# encoding: utf-8
 # Introduction to Ruby - Day 2 - Numbers and input/output
 # http://www.youtube.com/watch?v=mNt9CDg-MS0&list=PLSXDqiI4sC5NinJXEoYH6FYQ7vtIO8IPF
 

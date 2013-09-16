@@ -1,3 +1,4 @@
+# encoding: utf-8
 #  Introduction to Ruby - Day 1 - Rubymine setup - Hello World
 # http://www.youtube.com/watch?v=1lgu_l4oe8c&list=PLSXDqiI4sC5NinJXEoYH6FYQ7vtIO8IPF&index=1
 
@@ -22,6 +23,7 @@ puts 2+3*4
 puts "Calcul du nombre de secondes dans une journee"
 
 puts "seconds per a day is #{3600*24}"
+
  # Le fait de mettre une dièze suivi de deux accolades permet de dire au programme :  "Sort du string et passe en
  # calcul pour les valeurs en accolades"
 

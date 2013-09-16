@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 #############################################################################################
 # # Introduction to Ruby - Day 5 - More conditionals
 # http://www.youtube.com/watch?v=hcdx6z643lk&list=PLSXDqiI4sC5NinJXEoYH6FYQ7vtIO8IPF
@@ -16,31 +18,23 @@
 # Supérieur à 40 	    Obésite morbide ou massive
 ###################################################################
 
-
-print " Votre poid en Kilogramme est ? : "
-poid = gets.to_i
+print " Votre poid en Kilégramme est ? : "
+  poid = gets.to_i
 print "Votre taille en cm est de ? : "
-taille = gets.to_i
-
-
-imc = (poid*10000) /(taille**2)
-
-#imc = poid / taille*taille
-
-
+  taille = gets.to_i
+  imc = (poid*10000) /(taille**2)
 puts " Votre IMC est de #{imc}"
-
-if imc <16
-puts "Anorexie ou denutrition"
-elsif imc >=16 and imc<=18.5
-  puts "Maigreur"
-elsif imc>18.5 and imc<=25
-  puts "Corpulence normale"
-elsif imc>25 and imc<=30
-  puts "Surpoids"
-elsif imc>35 and imc<=40
-  puts "Obesite Elevee 1"
-else
-  puts "Obesite Elevee 2"
-  puts "You are going to die !!"
-end
+      if imc <16
+      puts "Anorexie ou denutrition"
+      elsif imc >=16 and imc<=18.5
+        puts "Maigreur"
+      elsif imc>18.5 and imc<=25
+        puts "Corpulence normale"
+      elsif imc>25 and imc<=30
+        puts "Surpoids"
+      elsif imc>35 and imc<=40
+        puts "Obesite Elevee 1"
+      else
+        puts "Obesite Elevee 2"
+        puts "You are going to die !!"
+      end
