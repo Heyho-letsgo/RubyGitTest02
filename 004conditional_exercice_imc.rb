@@ -25,7 +25,7 @@ print "Votre taille en cm est de ? : "
   imc = (poid*10000) /(taille**2)
 puts " Votre IMC est de #{imc}"
       if imc <16
-      puts "Anorexie ou denutrition"
+      puts "Anorexie ou dénutrition"
       elsif imc >=16 and imc<=18.5
         puts "Maigreur"
       elsif imc>18.5 and imc<=25
@@ -33,8 +33,8 @@ puts " Votre IMC est de #{imc}"
       elsif imc>25 and imc<=30
         puts "Surpoids"
       elsif imc>35 and imc<=40
-        puts "Obesite Elevee 1"
+        puts "Obésite élevée 1"
       else
-        puts "Obesite Elevee 2"
+        puts "Obésite élevée 2"
         puts "You are going to die !!"
       end
