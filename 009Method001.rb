@@ -32,24 +32,29 @@
 hello
 
 puts "______________________"
-lettre = " "
 
- print "Pour continuer tapez la lettre" + " a " + " : "
+  lettrea = "a"
+ print "Pour continuer tapez la lettre #{lettrea} :  "
  lettre = gets.chomp
- if
-   lettre !="a"
-   puts "no"
- elsif
-hello02
- end
- puts "______________________"
 
- 10.times do
-   hello
- end
+if
+ lettre == lettrea
+     hello02
+puts "______________________"
+     10.times do
+      hello
+              end
+else
+print  " non, pour continuer, il faut taper un #{lettrea} ...\n"
+
+
+end
+
+
+
+
  puts "______________________"
  print "Pour continuer tapez votre prénom: "
  helloprenom
-
 
 
