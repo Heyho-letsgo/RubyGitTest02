@@ -45,7 +45,20 @@
 
  # si on veut compter de 1 à 10 mmais uniquement les chiffres pairs
   # Il suffit de mettre le compteur à 2 count +=2 --> incvrémenter le compteur par deux à chaque fois
- print "*******************************************"
+ puts "*******************************************"
+
+
+ count = 1
+print "Ecrire une phrase à répeter ... : "
+ phraseadire = gets.chomp
+print "Nombre de fois que la phrase doit être dite ? : "
+ nombre = gets.to_i
+ while
+ count <= nombre
+   puts " #{count} . #{phraseadire}\n"
+   count +=1
+ end
+
 
 
 
